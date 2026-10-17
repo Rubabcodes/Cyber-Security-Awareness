@@ -1,3 +1,14 @@
 
+[project]
+name = "cyberaware"
+version = "1.0.0"
+description = "Cybersecurity Awareness Portal API"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
+
 [tool.vercel]
 entrypoint = "cyberaware_api_fixed:app"
+
